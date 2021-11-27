@@ -5,7 +5,7 @@ using Verse;
 
 namespace FitnessExtended
 {
-    public struct INormalRange
+    public class INormalRange
     {
         /// <summary>
         /// Mean value.
@@ -48,7 +48,7 @@ namespace FitnessExtended
 
         public void LoadDataFromXmlCustom(XmlNode xmlRoot)
         {
-            if (xmlRoot.ChildNodes.Count != 1)
+            if (xmlRoot.ChildNodes.Count == 0)
             {
                 Log.Error("Misconfigured INormalRange: " + xmlRoot.OuterXml);
                 return;
@@ -56,22 +56,22 @@ namespace FitnessExtended
             bool minSet = false, maxSet = false, meanSet = false, stdSet = false;            
             foreach (XmlNode node in xmlRoot.ChildNodes)
             {
-                if (node.Name.ToLower() == "u")
+                if (node.Name == "u")
                 {
                     meanSet = true;
-                    u = float.Parse(node.InnerText.Trim());
+                    u = float.Parse(node.InnerText.Trim());                    
                 }
-                else if (node.Name.ToLower() == "std")
+                else if (node.Name == "std")
                 {
                     stdSet = true;
                     std = float.Parse(node.InnerText.Trim());
                 }
-                else if (node.Name.ToLower() == "min")
+                else if (node.Name == "min")
                 {
                     minSet = true;
                     min = float.Parse(node.InnerText.Trim());
                 }
-                else if (node.Name.ToLower() == "max")
+                else if (node.Name == "max")
                 {
                     maxSet = true;
                     max = float.Parse(node.InnerText.Trim());

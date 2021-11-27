@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<FitnessExtended.BodyGenConfigDef Name="BodyGenHumans" Abstract="true">	
-				
+
 	</FitnessExtended.BodyGenConfigDef>	
 
 	<FitnessExtended.BodyGenConfigDef Name="BodyGenHumansCivil" ParentName="BodyGenHumans">	
@@ -13,16 +13,16 @@
 			<max>210</max>
 		</weightNormal>
 		<fitnessNormal>
-			<u>0.4</u>
+			<u>0.8</u>
 			<std>0.35</std>
-			<min>0.0</min>
-			<max>1.0</max>
+			<min>0.3</min>
+			<max>2.5</max>
 		</fitnessNormal>
 		<heightNormal>
-			<u>170</u>
-			<std>40</std>
-			<min>130</min>
-			<max>205</max>
+			<u>1.70</u>
+			<std>0.40</std>
+			<min>1.30</min>
+			<max>2.05</max>
 		</heightNormal>
 	</FitnessExtended.BodyGenConfigDef>
 
@@ -41,10 +41,10 @@
 			<max>1.0</max>
 		</fitnessNormal>
 		<heightNormal>
-			<u>180</u>
-			<std>25</std>
-			<min>150</min>
-			<max>230</max>
+			<u>1.80</u>
+			<std>0.25</std>
+			<min>1.50</min>
+			<max>2.30</max>
 		</heightNormal>
 	</FitnessExtended.BodyGenConfigDef>	
 </Defs>

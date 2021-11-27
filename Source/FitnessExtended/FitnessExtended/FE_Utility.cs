@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using RimWorld;
+using UnityEngine;
+using Verse;
 
 namespace FitnessExtended
 {
@@ -52,6 +54,18 @@ namespace FitnessExtended
             float imean = 0.2f * (minValue + maxValue ) / 2.0f + mean * 0.8f;            
             float sigma = Mathf.Min(std * std, (maxValue - mean) / 3.0f);
             return Mathf.Clamp(istd * sigma + imean, minValue, maxValue);
+        }
+
+        #endregion
+
+        #region Rendering
+
+        public static void SetBodyType(this Pawn pawn, BodyTypeDef bodyTypeDef)
+        {
+            pawn.story.bodyType = bodyTypeDef;
+            pawn.Drawer.renderer.graphics.SetAllGraphicsDirty();
+            pawn.Drawer.renderer.graphics.ResolveAllGraphics();
+            PortraitsCache.SetDirty(pawn);
         }
 
         #endregion

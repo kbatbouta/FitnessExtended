@@ -1,0 +1,43 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workbench ActiveDocument="FitnessExtended/FitnessExtended/Comps/FitnessComp.cs">
+    <Files>
+      <File FileName="FitnessExtended/FitnessExtended.csproj" Line="2" Column="17" />
+      <File FileName="FitnessExtended/Core/Finder.cs" Line="15" Column="39" />
+      <File FileName="FitnessExtended/FitnessExtended/Comps/BodyComp.cs" Line="26" Column="10" />
+      <File FileName="FitnessExtended/FitnessExtended/Comps/CompProperties_Fitness.cs" Line="7" Column="6" />
+      <File FileName="FitnessExtended/FitnessExtended/Controller.cs" Line="10" Column="10" />
+      <File FileName="FitnessExtended/Harmony/Harmony_Pawn_PathFollower.cs" Line="15" Column="12" />
+      <File FileName="FitnessExtended/FitnessExtended/FitnessUtility.cs" Line="10" Column="1" />
+      <File FileName="FitnessExtended/FitnessExtended/Current.cs" Line="18" Column="28" />
+      <File FileName="FitnessExtended/FitnessExtended/BodyGenUtility.cs" Line="26" Column="35" />
+      <File FileName="FitnessExtended/FitnessExtended/Defs/BodyGenExtension.cs" Line="6" Column="37" />
+      <File FileName="FitnessExtended/FitnessExtended/Defs/BodyGenConfigDef.cs" Line="15" Column="10" />
+      <File FileName="FitnessExtended/FitnessExtended/DefOfs/FE_BodyGenConfigDefOf.cs" Line="16" Column="1" />
+      <File FileName="FitnessExtended/FitnessExtended/Defs/NormalRange.cs" Line="25" Column="25" />
+      <File FileName="FitnessExtended/FitnessExtended/Utilities/FE_Utility.cs" Line="33" Column="22" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="FitnessExtended" expanded="True">
+            <Node name="FitnessExtended" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="FitnessExtended" expanded="True">
+                <Node name="Defs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -44,7 +44,7 @@
 	  <None Remove="FitnessExtended\Defs\" />
 	  <None Remove="FitnessExtended\Utility\" />
 	  <None Remove="FitnessExtended\DefOfs\" />
-	  <None Remove="FitnessExtended\Utilities\" />
+	  <None Remove="FitnessExtended\Stats\" />
 	</ItemGroup>
 	<ItemGroup>
 	  <Folder Include="FitnessExtended\" />
@@ -52,7 +52,7 @@
 	  <Folder Include="Harmony\" />
 	  <Folder Include="FitnessExtended\Defs\" />
 	  <Folder Include="FitnessExtended\DefOfs\" />
-	  <Folder Include="FitnessExtended\Utilities\" />
+	  <Folder Include="FitnessExtended\Stats\" />
 	</ItemGroup>
 	<PropertyGroup>
 		<TransformOnBuild>true</TransformOnBuild>

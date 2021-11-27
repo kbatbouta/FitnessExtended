@@ -25,9 +25,9 @@ namespace FitnessExtended
                 fitness = genOptions.fitnessNormal.Value;
                 height = weight = baseFitness = baseWeight  = - 1f;                       
             }
-            comp.IsHumanlike = !isAnimal;
-            comp.Fitness = fitness;            
-            comp.Weight = weight;
+            comp.bodyConfigDef = genOptions;
+            comp.fitness = fitness;            
+            comp.weight = weight;
             comp.SetBase(height, baseWeight, baseFitness);
         }
 

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <StatDef>
+    <defName>BodyHeight</defName>
+    <label>body height</label>
+    <workerClass>FitnessExtended.StatWorker_BodyHeight</workerClass>
+    <description>The pawn's body height in centimeters.</description>
+    <category>BasicsPawn</category>
+    <defaultBaseValue>0.0</defaultBaseValue>
+    <hideAtValue>0.0</hideAtValue>
+    <minValue>0</minValue>    
+    <displayPriorityInCategory>75</displayPriorityInCategory>
+  </StatDef>
+
+  <StatDef>
+    <defName>BodyWeight</defName>
+    <label>body weight</label>
+    <workerClass>FitnessExtended.StatWorker_BodyWeight</workerClass>
+    <description>The pawn's body weight in kilograms.</description>
+    <category>BasicsPawn</category>
+    <defaultBaseValue>0.0</defaultBaseValue>
+    <hideAtValue>0.0</hideAtValue>
+    <minValue>0</minValue>    
+    <displayPriorityInCategory>75</displayPriorityInCategory>
+  </StatDef>
+
+  <StatDef>
+    <defName>BodyFitness</defName>
+    <label>body fitness</label>
+    <workerClass>FitnessExtended.StatWorker_BodyFitness</workerClass>
+    <description>The relative body mass index relative to other pawns with similar weight and height. Higher numbers result in a faster and stronger pawn.</description>
+    <category>BasicsPawn</category>
+    <defaultBaseValue>0.0</defaultBaseValue>
+    <hideAtValue>0.0</hideAtValue>
+    <minValue>0</minValue>    
+    <displayPriorityInCategory>75</displayPriorityInCategory>
+  </StatDef>
+  
+</Defs>
